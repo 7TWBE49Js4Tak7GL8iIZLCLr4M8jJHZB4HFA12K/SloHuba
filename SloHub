@@ -120,20 +120,48 @@ elseif game.PlaceId == 4806026225 then
 
     end)
     
+elseif game.PlaceId == 920587237 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("AdoptMe Autofarm Made By SloExploits", "GrapeTheme")
+
+    local Tab = Window:NewTab("AutoFarm")
+    local Section = Tab:NewSection("AutoFarm")
+    Section:NewDropdown("AutoFarm", "Gives AutoFarm GUI", {"AutoFarmGUI"}, function(currentOption)
+        print(currentOption)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+
+    end)
     
-        
+elseif game.PlaceId == 537413528 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("BABFT Autofarm Made By SloExploits", "GrapeTheme")
+
+    local Tab = Window:NewTab("AutoFarm")
+    local Section = Tab:NewSection("AutoFarm")
+    Section:NewDropdown("AutoFarm", "AutoFarm", {"AutoFarm"}, function(currentOption)
+        print(currentOption)
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
+
+    end)
+    
+elseif game.PlaceId == 4410049285 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("drivingsim autofarm Made By SloExploits", "GrapeTheme")
+    
+    local Tab = Window:NewTab("drivingsim")
+    local Section = Tab:NewSection("drivingsim")
+    Section:NewDropdown("drivingsim", "gives drivingsim autofarm", {"EXECUTE WHEN YOUR IN A CAR"}, function(currentOption)
+        print(currentOption)
+        loadstring(game:HttpGet("https://pastebin.com/raw/vzffWTq4", true))()
+    end)
+    
 
 
 
+
+    end)
+    
 
 
 
     
-
-
-end
-
-
-
-
-
