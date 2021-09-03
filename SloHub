@@ -83,6 +83,48 @@ elseif game.PlaceId == 6013561080 then
     
     end)
     
+elseif game.PlaceId == 6447798030 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("FNF GUI Made By SloExploits", "GrapeTheme") 
+    
+    local Tab = Window:NewTab("AutoPlayer")
+    local Section = Tab:NewSection("AutoPlayer")
+    Section:NewDropdown("AutoplayerGui", "Autoplayer", {"Autoplayer"}, function(currentOption)
+        print(currentOption)
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+
+    end)
+    
+elseif game.PlaceId == 6875469709 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Strongest Punch Simulator Made By SloExploits", "GrapeTheme") 
+
+    local Tab = Window:NewTab("Autofarm")
+    local Section = Tab:NewSection("Autofarm")
+    Section:NewDropdown("AutofarmGUI", "Gives Autofarm", {"Autofarm"}, function(currentOption)
+        print(currentOption)
+        loadstring(game:HttpGet("https://pastebin.com/raw/yqZUNaGf", true))()
+
+    end)
+
+elseif game.PlaceId == 4806026225 then
+    local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+    local Window = Library.CreateLib("Defenders Depot Crate TP Made By SloExploits", "GrapeTheme")
+
+    local Tab = Window:NewTab("CrateTP")
+    local Section = Tab:NewSection("CrateTP")
+    Section:NewDropdown("CrateTP", "CrateTP", {"CrateTP"}, function(currentOption)
+        print(currentOption)
+        loadstring(game:HttpGet('https://pastebin.com/raw/4GEWGvCp'))()
+
+
+    end)
+    
+    
+        
+
+
+
 
 
 
